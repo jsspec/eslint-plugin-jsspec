@@ -1,6 +1,6 @@
 # eslint-plugin-jsspec
 
-[![Travis (.org) branch](https://img.shields.io/travis/jsspec/eslint-plugin-jsspec/master.svg?logo=travis&style=for-the-badge)](https://travis-ci.org/jsspec/eslint-plugin-jsspec)
+[![Travis](https://img.shields.io/travis/jsspec/eslint-plugin-jsspec/master.svg?logo=travis&style=for-the-badge)](https://travis-ci.org/jsspec/eslint-plugin-jsspec)
 [![AppVeyor](https://img.shields.io/appveyor/ci/HookyQR/eslint-plugin-jsspec/master.svg?logo=appveyor&style=for-the-badge)](https://ci.appveyor.com/project/HookyQR/eslint-plugin-jsspec)
 
 Mark system methods and lazy objects as valid/used
