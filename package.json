@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-jsspec",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Mark jsspec methods and lazy objects as valid/used",
   "keywords": [
     "eslint",

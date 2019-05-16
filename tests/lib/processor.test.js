@@ -1,3 +1,5 @@
+'use strict';
+
 const { postprocess } = require('../../lib/processor');
 
 describe('postprocess error handling', () => {
