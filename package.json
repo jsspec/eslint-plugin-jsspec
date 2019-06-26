@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-jsspec",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "Mark jsspec methods and lazy objects as valid/used",
   "keywords": [
     "eslint",
@@ -26,7 +26,7 @@
     "eslint": ">=3.0.0"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
+    "eslint": "3.9.1",
     "mocha": "^6.1.4",
     "chai": "^4.2.0",
     "c8": "^4.1.5"

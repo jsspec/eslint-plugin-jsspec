@@ -6,8 +6,8 @@ const cli = new CLIEngine({
   baseConfig: {
     extends: 'eslint:recommended',
     rules: {
-      'no-unexpected-multiline': false,
-      'no-irregular-whitespace': false
+      'no-unexpected-multiline': 0,
+      'no-irregular-whitespace': 0
     }
   },
   envs: ['es6', 'node', 'jsspec/jsspec'],
