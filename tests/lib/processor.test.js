@@ -8,6 +8,7 @@ describe('postprocess error handling', () => {
       expect(postprocess([[]], "never/processed")).to.be.an('array').that.is.empty;
     });
   });
+
   context('the error message is malformed', () => {
     it('passes through', () => {
       expect(postprocess([[{

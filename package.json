@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-jsspec",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Mark jsspec methods and lazy objects as valid/used",
   "keywords": [
     "eslint",
@@ -20,14 +20,15 @@
   "homepage": "https://github.com/JSSpec/eslint-plugin-jsspec#readme",
   "main": "lib/index.js",
   "scripts": {
-    "test": "c8 mocha tests --recursive -r chai/register-expect"
+    "test": "c8 jsspec -r chai/register-expect - tests/lib/plugin.test.js tests/lib/processor.test.js"
   },
   "peerDependencies": {
     "eslint": ">=3.0.0"
   },
   "devDependencies": {
+    "@jsspec/jsspec": "*",
+    "lodash": "4.17.14",
     "eslint": "3.9.1",
-    "mocha": "^6.1.4",
     "chai": "^4.2.0",
     "c8": "^4.1.5"
   },
